@@ -3,9 +3,9 @@ import './App.css'
 function App() {
 
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex justify-center items-center h-screen bg-[hsl(204,43%,93%)]'>
       <div className='grid grid-cols-1 sm:grid-cols-2 w-[700px] shadow-xl rounded-md overflow-hidden'>
-        <div className='col-span-1 sm:col-span-2 p-10'>
+        <div className='col-span-1 sm:col-span-2 p-10 bg-white'>
           <h1 className='text-[hsl(179,62%,43%)] font-semibold text-xl tracking-wide mb-3'>Join our community</h1>
           <span className='text-[hsl(71,73%,54%)] text-md font-semibold mb-2 block'>30-day, hassle-free money back guarantee</span>
           <p className='text-[hsl(218,22%,67%)] text-sm '>Gain access to our full library of tutorials along with expert code reviews. 
